@@ -1,0 +1,41 @@
+
+#country-content {
+    padding: 2rem;
+    border-radius: 6px;
+    background-color: #d3e0d3;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.4);
+  }
+  
+  #country-content ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  #country-content li {
+    width: 15rem;
+    text-align: center;
+    border-radius: 15px;
+    padding: 1rem;
+    border: 1px solid #007c6a;
+    box-sizing: border-box;
+  }
+  
+  #country-content li img {
+    height: 10rem;
+    width: 13rem;
+    object-fit: cover;
+  }
+  
+  #country-content li h3 {
+    margin: 0.5rem 0;
+  }
+  
+  #country-content li p {
+    font-size: 0.9rem;
+  }
+  

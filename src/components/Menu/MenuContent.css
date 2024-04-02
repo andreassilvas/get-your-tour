@@ -1,0 +1,93 @@
+#countries {
+  margin: 3rem auto;
+}
+
+#countries p {
+  color: #006666;
+}
+
+#countries h2 {
+  text-align: left;
+}
+
+#countries menu {
+  margin: 1rem 0;
+  padding: 0;
+  display: flex;
+  gap: 0.5rem;
+  list-style: none;
+  flex-direction: column;
+}
+
+#countries menu button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  background-color: transparent;
+  color: #dfc093;
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+
+#countries menu button:hover {
+  background-color: #005959;
+  color: #ecd4b1;
+}
+
+#countries menu button.active {
+  background-color: #149089;
+  color: #ecd4b1;
+}
+
+#tab-content {
+  padding: 1rem;
+  border-radius: 6px;
+  background-color: #ecd4b1;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+}
+
+#tab-content h3 {
+  margin: 0;
+}
+
+#tab-content code {
+  font-size: 1rem;
+}
+
+#tab-info {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+#tab-images img,
+#tab-flags img,
+#tab-country-info {
+  height: 15rem;
+  width: 20rem;
+  object-fit: cover;
+  border-radius: 15px;
+}
+
+#tab-country-info {
+  background: #f5e8d5;
+  padding: 2rem;
+}
+
+@media only screen and (min-width: 600px) {
+
+  #tab-images img,
+  #tab-flags img,
+  #tab-country-info {
+    height: 13rem;
+    width: 25rem;
+  }
+
+  #countries menu {
+    flex-direction: row;
+  }
+}
